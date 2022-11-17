@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body style="background-color: rgb(73, 73, 73);">
+    <header>
+        <!-- navbar start -->
+        <div>
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container">
+                  <a class="text-light fs-3 navbar-brand" href="#">
+                    <img src="" alt="" srcset="">
+                    Logo
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="text-light nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="text-light nav-link active" aria-current="page" href="#shoes">Shoes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="text-light nav-link active" aria-current="page" href="#bagpack">Bagpack</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="text-light nav-link active" aria-current="page" href="#subscribe">Subscribe</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+        <!-- navbar end -->
+
+        <main>
+            <!-- slider start -->
+            <div id="carouselExampleControls" class="carousel slide container mt-5 shadow p-3 mb-5 bg-dark rounded" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- slider 1-->
+                  <div class="carousel-item active">
+                        <div class="row p-5">
+                            <div class="col-7 text-light d-flex align-items-center">
+                               <div>
+                                <h1>XBOX</h1>
+                                <p>Top selling product in our marketplace</p>
+                                <h2>$200</h2>
+                                <button class="btn btn-light">Buy Now</button>
+                               </div>
+                            </div>
+                            <div class="col-5">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="..." >
+                            </div>
+                            
+                        </div>
+                  </div>
+                    <!-- slider 2-->
+                  <div class="carousel-item active">
+                        <div class="row p-5">
+                            <div class="col-7 text-light d-flex align-items-center">
+                               <div>
+                                <h1>DG12os</h1>
+                                <p>Top selling product in our marketplace</p>
+                                <h2>$200</h2>
+                                <button class="btn btn-light">Buy Now</button>
+                               </div>
+                            </div>
+                            <div class="col-5">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            </div>
+                            
+                        </div>
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+                <!-- slider end -->
+              
+
+              <!-- catagory start -->
+
+              <section>
+                <div class="container text-center my-5">
+                    <div class="row g-4">
+                        <!-- catagory1 -->
+                      <div class="col-lg-4 col-sm-12">
+                        <div class="p-3 border border-dark bg-dark rounded-3">
+                            <div class="d-flex align-items-center justify-content-around">
+                                <h1 class="text-light ">Watch</h1>
+                                <img src="images/categories/watch.png" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- catagory2 -->
+                      <div class="col-lg-4 col-sm-12">
+                        <div class="p-3 border border-dark bg-dark rounded-3">
+                            <div class="d-flex align-items-center justify-content-around">
+                                <h1 class="text-light ">Bag</h1>
+                                <img src="images/categories/bag.png" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- gatagory3 -->
+                      <div class="col-lg-4 col-sm-12">
+                        <div class="p-3 border border-dark bg-dark rounded-3">
+                            <div class="d-flex align-items-center justify-content-around">
+                                <h1 class="text-light ">Shoes</h1>
+                                <img src="images/categories/shoes.png" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+              </section>
+
+              <!-- catagory end -->
+
+              <!-- shoes section -->
+
+              <section class="container my-5">
+                <h1 class="text-light" id="shoes">Shoes</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- item1 -->
+                    <div class="col">
+                        <div class="card h-100 bg-dark">
+                            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-light">Supply 350</h5>
+                                <h2 class="text-light">$228</h2>
+                                <p class="card-text text-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="m-3">
+                               <div class="btn btn-light">Buy Now</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- item2 -->
+                    <div class="col">
+                        <div class="card h-100 bg-dark">
+                            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-light">Nike 360</h5>
+                                <h2 class="text-light">$228</h2>
+                                <p class="card-text text-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="m-3">
+                               <div class="btn btn-light">Buy Now</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- item3 -->
+                    <div class="col">
+                        <div class="card h-100 bg-dark">
+                            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-light">Red Airmax</h5>
+                                <h2 class="text-light">$228</h2>
+                                <p class="card-text text-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="m-3">
+                               <div class="btn btn-light">Buy Now</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- bag section -->
+
+                <h1 class="text-light mt-5" id="bagpack">Bagpack</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- item1 -->
+                    <div class="col">
+                        <div class="card h-100 bg-dark">
+                            <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-light">Red Demon</h5>
+                                <h2 class="text-light">$228</h2>
+                                <p class="card-text text-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="m-3">
+                               <div class="btn btn-light">Buy Now</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- item2 -->
+                    <div class="col">
+                        <div class="card h-100 bg-dark">
+                            <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-light">Blue Ocean</h5>
+                                <h2 class="text-light">$228</h2>
+                                <p class="card-text text-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="m-3">
+                               <div class="btn btn-light">Buy Now</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- item3 -->
+                    <div class="col">
+                        <div class="card h-100 bg-dark">
+                            <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-light">Black Sead</h5>
+                                <h2 class="text-light">$228</h2>
+                                <p class="card-text text-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="m-3">
+                               <div class="btn btn-light">Buy Now</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+              </section>
+
+              <!-- subscribe section -->
+              
+              <section class="container bg-dark border border-dark rounded my-5 d-flex justify-content-center" id="subscribe">
+                <div class="" style="padding: 5% 10%;">
+                    <h1 class="text-light">LET'S STAY IN TOUCH</h1>
+                    <p class="text-light">Get updates on sales, specials and more</p>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="btn btn-light">Submit</div>
+                </div> 
+              </section>
+
+
+              <footer>
+                <div class="text-light d-flex justify-content-center my-3">
+                    <p>©2023. Bootstrap Commerce. All rights reserved. Iyasin Raj, Dhaka.</p>
+                </div>
+              </footer>
+
+        </main>
+    </header>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
